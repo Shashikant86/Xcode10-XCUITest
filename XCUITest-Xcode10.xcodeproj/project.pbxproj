@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B27477F216A01F500A5D667 /* XCUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B27477E216A01F500A5D667 /* XCUITestBase.swift */; };
 		9B54C8FF2158315F00D452EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54C8FE2158315F00D452EE /* AppDelegate.swift */; };
 		9B54C9012158315F00D452EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54C9002158315F00D452EE /* ViewController.swift */; };
 		9B54C9042158315F00D452EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B54C9022158315F00D452EE /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B27477E216A01F500A5D667 /* XCUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestBase.swift; sourceTree = "<group>"; };
 		9B54C8FB2158315F00D452EE /* XCUITest-Xcode10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCUITest-Xcode10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B54C8FE2158315F00D452EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B54C9002158315F00D452EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				9BB9D533215841A200B95B51 /* XCUITest_Xcode10UITests.swift */,
 				9BB9D535215841A200B95B51 /* Info.plist */,
+				9B27477E216A01F500A5D667 /* XCUITestBase.swift */,
 			);
 			path = "XCUITest-Xcode10UITests";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB9D534215841A200B95B51 /* XCUITest_Xcode10UITests.swift in Sources */,
+				9B27477F216A01F500A5D667 /* XCUITestBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
